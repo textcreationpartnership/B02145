@@ -1,0 +1,585 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A choice collection of wonderful miracles, ghosts, and visions</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 38 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B02145</idno>
+            <idno type="STC">Wing C3915A</idno>
+            <idno type="STC">ESTC R175768</idno>
+            <idno type="EEBO-CITATION">52528764</idno>
+            <idno type="OCLC">ocm 52528764</idno>
+            <idno type="VID">178730</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B02145)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 178730)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2768:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A choice collection of wonderful miracles, ghosts, and visions</title>
+               </titleStmt>
+               <extent>4 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for B. R. and DW.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>[1681?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imprint from colophon.</note>
+                  <note>Date of publication suggested by Wing.</note>
+                  <note>Some text in verse.</note>
+                  <note>In double columns.</note>
+                  <note>Imperfect: cropped at head with some loss of text.</note>
+                  <note>Reproduction of the original in the National Library of Scotland.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Monmouth, James Scott, --  Duke of, 1649-1685.</term>
+               <term>Royal touch --  Early works to 1800.</term>
+               <term>Political satire, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-09</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2009-09</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:178730:1"/>
+            <pb facs="tcp:178730:1" rendition="simple:additions"/>
+            <head>COLLECTION OF Wonderful Miracles, Ghoſts and Viſion.</head>
+            <div type="account">
+               <head>Crookhorn, <hi>January</hi> 1. 1681. The following account of an extraordinary Cure of the <hi>Kings-Evil</hi> is ſent from <hi>Crookhorn</hi> in the County of <hi>So<g ref="char:EOLhyphen"/>merſet,,</hi> atteſted by <hi>Henry Clark</hi> Miniſter of the ſaid Pariſh Capt. <hi>James Bale,</hi> Captain <hi>Richard Shirlock, John Stacky</hi> Clerk, <hi>William Pike, Samuel Daubeny, George Strong, John Greenway, Robert Chiſlet.</hi>
+               </head>
+               <p>WE whoſe Names are under written, do certifie the Truth of a Miraculous Cure of a Girl of this Town about <hi>20</hi> years of Age by Name <hi>Elizabeth Parcer,</hi> a poor Widows Daughter, who had languiſhed under the ſad afflicting Diſtemper of the <hi>Kings Evil,</hi> termed the <hi>Joint Evil,</hi> (being ſaid to be the worſt <hi>Evil,</hi>) for about <hi>10</hi> or <hi>11</hi> years time; She had in her right hand four running ſores, <hi>(viz.)</hi> one on the inſide, and three on the back of her hand, and two more in the ſame arm, one in her hand-wriſt, the other above her Elbow. She had hetwixt her Arm<g ref="char:EOLhyphen"/>pit and Breast, a <hi>Bunch,</hi> which the Doctors ſaid fed thoſe <hi>6</hi> ſe<g ref="char:EOLhyphen"/>veral ſores; the ſaid Distemper was likewiſe on her left Ey, inſo<g ref="char:EOLhyphen"/>much that ſhe was almoſt Blind; Her Mother deſpairing of her ſight, and not being able to ſend her to <hi>London,</hi> to be touch'd by the <hi>King,</hi> being miſerably poor, and having many ſmall Chil<g ref="char:EOLhyphen"/>dren, and this Girl not being able to work: Her Mother (deſirous to have her Daughter cur'd,) went to the Chyrurgeons for help, who tamper'd with it for a time, but could do no good, went like<g ref="char:EOLhyphen"/>wiſe <hi>10</hi> or <hi>11</hi> miles to a ſeventh Son, but all in vain, no viſible hopes of a Cure remain'd, and nothing was expected but a Grave.</p>
+               <p>But now, in this Girls extremity, God, the great Phyſician, dictates unto her (thus, languiſhing in her miſerable, hopeleſs condition,) what courſe to take, and what to do for a Cure, which was to go and touch the Duke of <hi>Monmouth,</hi> which the Girl told her Mother, that if ſhe could but touch the Duke, ſhe ſhould be well: Her Mother r<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>proved her for her fooliſh concert, But the Girl did often perſwade her Mother that ſhe might go to <hi>Lackington</hi> to the D. (who then lay at Mr. <hi>Spekes,</hi>) For cer<g ref="char:EOLhyphen"/>tainly (ſaid ſhe) <hi>I ſhould be well if I could but touch him.</hi> Her Mother ſlighted the preſſing Requests of her Daughter, and the more her Mother ſlighted it, and reprov'd her, the more earneſt was the Girl for it. In few days after the Girl having notice that Sir <hi>Jo. Sidenham</hi> intended to treat the <hi>D.</hi> at <hi>White Lodg</hi> in <hi>Henton Park;</hi> to which place this Girl with many of her Neighbours went, ſhe being there timely, waited the Dukes co<g ref="char:EOLhyphen"/>ming. First, ſhe obſerved the Perſon of the Duke, to have knowledge of him, as he was paſſing by, ſhe preſt in amongſt the croud, and catcht him by the hand, his Glove being on, and ſhe had a Glove likewiſe to cover her very ſores; She not being here<g ref="char:EOLhyphen"/>with ſatisfied with this firſt attempt of touching his Glove on<g ref="char:EOLhyphen"/>ly, but her mind was, ſhe muſt touch ſome part of his naked fleſh; She waiting his coming forth, intended a ſecond attempt. The poor Girl thus between Hope and Fear waited his Mo<g ref="char:EOLhyphen"/>tion, and on a ſudden was News brought of the Dukes coming, which ſhe (to be prepared) rent off her Glove that was clung to the Sores, in ſuch haste, that ſhe tore her Glove, and brought away not only the Sores but the Skin. The Dukes Glove, (as Providence ordered it,) the upper part hung down, ſo that his wriſt was bare; ſhe preſt on, and catcht him by the bare hand with her running hand; ſaying <hi>God bleſs your Greatneſs,</hi> and the Duke ſaid <hi>God bleſs You.</hi> The Girl was not a little tranſported with her good Succeſs, came and told her Friends that now ſhe ſhould be well: She came home to her Mother with great Joy, and told her ſhe had been toucht by the Dukes bare hand, <hi>and that ſhe ſhould now be well.</hi> Her Mother hear<g ref="char:EOLhyphen"/>ing what ſhe had done, reproved her very ſharply for her bold<g ref="char:EOLhyphen"/>neſs, and askt her how ſhe durſt do any ſuch thing? and threat<g ref="char:EOLhyphen"/>ned to beat her for it; She cryed out, <hi>O Mother, I ſhall be well again, and be cured of my Sores;</hi> And as God Almighty (the great Phyſician) would have it, (to the Admiration of all that know or hear of it;) her ſix running Sores in her Hand and Arm, in four or five days were dryed up; the bunch in her Breaſt was diſſolved in <hi>8</hi> or <hi>10</hi> days, of which now is no Sign, her ey that was given for lost, is now perfectly well, and the Girl in good Health, the marks of her ſeveral Sores are yet viſible in her Hand and Arm; all which hath been diſcovered to us both by Mother, Daughter, and Neighbours that know her.</p>
+               <argument>
+                  <p>Whoever doubts the Truth of this Relation, may be ſa<g ref="char:EOLhyphen"/>tisfied thereof by the ſight of the Original, under the Hands of the Perſons above-named at the <hi>Amsterdam Coffee-houſe</hi> in St. <hi>Bartholomew Lane, London.</hi>
+                  </p>
+               </argument>
+            </div>
+            <div type="account">
+               <head>A True Account of a Wonderful <hi>Cure</hi> of the <hi>Kings-Evil,</hi> perform'd by Mrs. <hi>F</hi>— Siſter to his Grace the Duke of MONMO<g ref="char:V">Ʋ</g>TH.</head>
+               <p>THE Extraordinary Cure of the <hi>Kings-Evil,</hi> lately per<g ref="char:EOLhyphen"/>formed by his Grace the D. of M in his Weſtern Pro<g ref="char:EOLhyphen"/>greſs, has (no doubt) alarm'd many People, and open'd the eys of the moſt unbelieving, to ſee Heaven by this Mi<g ref="char:EOLhyphen"/>racle proclaim a Legitimacy, and God Almighty declare for the <hi>Black Box.</hi> Neither has there been wanting a ſecond Te<g ref="char:EOLhyphen"/>ſtimony to this Illuſtrious D's Family, in a Cure both ſtrange and true as the former; that ſo according to the Apoſtle, <hi>Out of the mouth of Two or Three Witneſſes; every word might be eſtabliſhed.</hi> Mrs. <hi>F.</hi> Siſter to this moſt Excellent Prince, for<g ref="char:EOLhyphen"/>merly a <hi>Roman Catholick,</hi> but ſince (by the convincing Argu<g ref="char:EOLhyphen"/>ments, and exemplary Piety of her Husband Mr <hi>F.</hi> Maſter of the <hi>Requeſts,</hi>) brought over to his Religion, I mean the true ſincere <hi>Proteſtant Faith,</hi> has been as remarkable in a wonder<g ref="char:EOLhyphen"/>ful Cure of the ſame malignant Diſtemper, as the D. her Bro<g ref="char:EOLhyphen"/>ther; The truth of which whole matter of Fact, We whoſe Names are under-written engage our ſelves to be reſponſi<g ref="char:EOLhyphen"/>ble for. Now the matter of Fact was thus; One <hi>Jonathan Trott</hi> was born of poor, but virtuous Parents, his Father was dead but his Mother that ſurviv'd, by the Bleſſing of God accom<g ref="char:EOLhyphen"/>panying her honeſt Endeavours, had got together a Sum of Money very conſiderable to the Trade ſhe drove, her chief Vocation being ſelling of <hi>Apples, Pears, Oranges,</hi> and other <hi>Fruit,</hi> not far from <hi>Covent Garden</hi> Church Door; the Inter<g ref="char:EOLhyphen"/>vals of which Calling ſhe ſtill imploy'd in being very buſie with her Needle in footing Stockins, mending Breeches, and ſuch like honeſt Labours. But her greateſt affliction was, the ſad ſpectacle of the poor wretch her only Son and Heir, (the forementioned <hi>Jonathan Trot<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>,</hi> who had for many years been ſore afflicted with a continual. Running of a moſt noy<g ref="char:EOLhyphen"/>ſom Matter in his Neck, and many other parts of his Body, ac<g ref="char:EOLhyphen"/>companyed often with ſo great Tumours and Swelling about his Throat, as almoſt choak'd him. Upon this Son of hers, (now about the Age of 19.) ſhe had ſpent the greateſt part of her Livelihood, to pitiful, Quacking Ignorant Phyſicians ſuch as her Purſe could beſt procure, and ſuch as kill the poor at the moſt eaſie and conſcionable Rates: Theſe her Doctors could never rightly inform her what was her Sons true Diſtemper; till at laſt ſhe her ſelf (ſuſpecting it was the <hi>Kings Evil,</hi>) had the Advice of ſome able Phyſicians, as Dr <hi>Lower.</hi> Dr. <hi>Minſbel.</hi> &amp;c. who all agreed that it was the <hi>Kings Evil,</hi> and that he was in very great danger, unleſs he were very ſpeedily touch'd. This happned to be when His Majeſty was laſt at <hi>Windſor,</hi> whither ſhe (good woman) was deſigning her Journey with her Son; But the night before ſhe reſolv'd on her Progreſs, ſhe dreamt that ſhe heard a Voice that com<g ref="char:EOLhyphen"/>manded her Son to be Toucht by Mrs. <hi>F.</hi> The poor woman you may imagine, was infinitely ſurpriz'd at this Command never having ſo much as heard of ſuch a Woman as Mrs. <hi>F.</hi> in her Life; But ſhe was much more aſtoniſht when her Son came to her, and told her that he was reſolv'd not to take his Journey to <hi>Windſor,</hi> for that he had heard a Voice that Night 3 times ſucceſſively, (which by the Deſcription he gave of it, was the very ſame that his Mother had heard, and commanded the ſame thing,) telling him, that one Touch of Mrs. <hi>F.</hi> would make him whole. Upon this the poor Wo<g ref="char:EOLhyphen"/>man acquainted ſeveral of her Neighbours with the unuſu<g ref="char:EOLhyphen"/>al Circumſtances of her Dream, exactly concurring with her Sons; and by them was inform'd that there was ſuch a Lady, Siſter to His Grace the D. of <hi>M.</hi> whom they therefore all con<g ref="char:EOLhyphen"/>cluded to be the Perſon intended in the Dream, by reaſon of her near Relation to His Grace, and the Crown. The Youth <hi>Jonathan</hi> hearing this, was extreme glad, and ſhew'd violent ſigns of it, in urging and preſſing his Mother as vigorouſly as ever he could, to procure her leave; who at firſt was very unwilling to let him go upon this Adventure. He ſtill in<g ref="char:EOLhyphen"/>ſiſted upon one Argument which even in affliction made the poor Woman ſmile, That (having heard of the D. of <hi>M</hi>'s Cure, which was knowh long before it was Publiſhed,) He did not know why Mrs. <hi>F.</hi> might not receive from her Mother the Curing of the Ills of Young Men by a Touch of her Na<g ref="char:EOLhyphen"/>ked Fleſh, as well as the D. her Brother had from his Father
+<pb facs="tcp:178730:2"/>the Curing of Young Women by a Touch of his. However, his Mother having check'd him for this ſaying, was reſolv'd to ſend him: Accordingly he went to Mrs. <hi>F</hi>'s Houſe, near St. <hi>James</hi>'s, and having deſir'd admiſſion, as ſoon as ever Mrs. <hi>F.</hi> appeared, he falls down upon his Knees before her, begging Pardon for boldneſs, the occaſion whereof he told her in the Relation which he made of all that had hap<g ref="char:EOLhyphen"/>pen'd to his Mother and himſelf: Then graſping her hands with all the Violence and Paſſion imaginable, kiſs'd them a Thouſand times, and directed them (for the Lady was not ſo Uncharitable as to deny it upon any ſuch good account,) to his Neck and his Throat, and all the other parts of his Body wherein he was afflicted; which ſhe vouchſafed to ſtroke, wiſhing withal, that it might do him as much good as he believ'd it would. This done, ſhe left him, and the Youth went home very well ſatisfy'd with the Hopes of his being very ſpeedily Cur'd, as accordingly it ſucceeded; for within three or four days time his Running ceaſed; and in a Weeks time the Swelling in his Throat was not only abated, but perfectly and intirely Cured; And Mrs<g ref="char:punc">▪</g> 
+                  <hi>F.</hi> by many of this Perſons Neighbours and Acquaintance, (and moſt of the <hi>Apple-women</hi> about thoſe parts;) is to this day called <hi>Princeſs F.</hi>
+               </p>
+               <p>Now its well known, That this Gift of <hi>Healing</hi> was firſt imparted to King <hi>Edward the Confeſſor,</hi> a good King, though a <hi>Popiſh Saint,</hi> to Deſcend upon his <hi>Legitimate Succeſſors;</hi> and if none of them ever Exerciſed it before they came to the Crown till now, we muſt either ſay, that they had it, but forbore the uſe of it, or elſe we muſt admire the ex<g ref="char:EOLhyphen"/>cellency of the Advantages that <hi>Protestant Princes</hi> and <hi>Prin<g ref="char:EOLhyphen"/>ceſſes</hi> have above thoſe formerly that were <hi>Papiſts;</hi> Since <hi>Proteſtants,</hi> though two or three Removes from the <hi>Crown,</hi> can do as much with a Touch, as <hi>Edward the Confeſſor,</hi> when he was not only a <hi>King</hi> but a <hi>Saint.</hi> And now who is there that can queſtion the <hi>Legitimacy</hi> of our moſt Excellent Prince <hi>J. D.</hi> of <hi>M.</hi> when this Remarkable Witneſs that Heaven hath given Him and his Siſter of Curing the <hi>Kings Evil,</hi> pleads ſo loudly in his behalf?</p>
+               <p>There is but One Other Natural Argument to prove the Legitimacy of this <hi>Prince,</hi> and his being the True and Right <hi>Succeſſor;</hi> And that is the Inſtinct by which <hi>Lyons</hi> are taught to Reverence, and to do them Homage, without ever hurt<g ref="char:EOLhyphen"/>ing them; And This too I am told His Grace does deſign to ſhew the World in his own behalf; For it is Credibly Re<g ref="char:EOLhyphen"/>ported, that on <hi>Saturday</hi> next the D. of <hi>M.</hi> deſigns to be ſhut up with one of the Greateſt <hi>Lyons</hi> in the <hi>Tower</hi> of <hi>London</hi>
+                  <g ref="char:punc">▪</g> There to be ſeen, to the great Satisfaction of all that behold how Secure He muſt needs be of his <hi>Legitimacy,</hi> that dare: put it to ſo Dangerous a Tryal; Sir <hi>Th. Ar.</hi> and <hi>J. H.</hi> 
+                  <abbr>Eſq</abbr> have proffered their Service to attend in the next empty Den, in Quality of Bed-chamber-men to his Grace; and the Earl of S. Farl of <hi>E.</hi> Lord <hi>G.</hi> and ſeveral other noble Peers, have engaged to Accompany Him to the Place of Tryal. For my part, I wiſh for the Day, not at all Doubting, but to ſee Old <hi>CHARLES,</hi> the <hi>Kings Lyon,</hi> give him his Bleſſing, by laying his Imperial Paw upon his Head, in which all <hi>Ly<g ref="char:EOLhyphen"/>ons</hi> have we know by Nature ſtampt the Image of a <hi>Crown.</hi> This I will anſwer for the <hi>Lyon;</hi> That if he do not Declare a <hi>True Succeſſor,</hi> yet He will ſhew another ſort of <hi>Royalty,</hi> and Remove one of the worſt ſorts of the <hi>Kings Evil.</hi>
+               </p>
+               <closer>
+                  <signed>The Perſons above mentioned for Witneſſes of this Ex<g ref="char:EOLhyphen"/>traordinary Cure, are We whoſe Names are ſubſcribed.
+<list>
+                        <item>
+                           <hi>Br.</hi> Lord <hi>Gerard,</hi>
+                        </item>
+                        <item>Sir <hi>Gilb. Ferard,</hi>
+                        </item>
+                        <item>Col <hi>Langley,</hi>
+                        </item>
+                        <item>
+                           <hi>Th. Vernon</hi> 
+                           <abbr>Eſq</abbr>
+                        </item>
+                        <item>Mr. <hi>Rowe,</hi>
+                        </item>
+                        <item>Mrs. <hi>Needham.</hi>
+                        </item>
+                     </list>
+                  </signed>
+               </closer>
+            </div>
+            <div type="notice">
+               <head>Advertiſement.</head>
+               <p>HIS Grace to perform this Famous <hi>Tryal of Skill,</hi> with great Magnificence and Solemnity, order'd that his Militia, the Porters, Tinkers and Chimney Sweepers and Broom-men of <hi>London,</hi> together with the Squires of the Body, commonly called the <hi>Black-guard,</hi> ſhould be ready with the aforeſaid Attendants to wait upon his Perſon to the place of Execution, followed with ſeveral Pageants and Artificial Devices, curiouſly re<g ref="char:EOLhyphen"/>preſenting the famous Adventures of ancient <hi>Heroes,</hi> par<g ref="char:EOLhyphen"/>ticularly <hi>Don Quixots</hi> ſtorming the Windmill for an In<g ref="char:EOLhyphen"/>chanted Caſtle. But before theſe extraordinary prepa<g ref="char:EOLhyphen"/>rations could be compleated, the malitious Papiſts have ſpitefully poyſon'd all the Lyons in the Tower, except the Dukes; whereupon his Grace is adviſed by his own Privy Council the Rabble, not to venture on that Lyon, but rather try the good nature of the Leopard, who they ſay was certainly begot by a Lyon, as his Grace by a K. and therefrre cannot but favour ſuch pretenders to Roy<g ref="char:EOLhyphen"/>alty, in hopes himſelf may at last become K. of the Beaſts.</p>
+            </div>
+            <div type="account">
+               <head>A true and perfect Relation of a Strange and Wonder<g ref="char:EOLhyphen"/>ful Apparition which appear'd to <hi>Elizabeth FREE<g ref="char:EOLhyphen"/>MAN,</hi> at <hi>Biſhops-Hatfield</hi> in <hi>Hartfordſhire, Jan.</hi> 27. 1680/1. Commanding her to declare a Meſſage to His Majeſty. As it was taken before Sir <hi>Joſeph Jor<g ref="char:EOLhyphen"/>dan</hi> Kt, and <hi>Richard Lee</hi> Dr. <hi>of Divinity,</hi> and Chap<g ref="char:EOLhyphen"/>lain in Ordinary to His Majeſty.</head>
+               <p>
+                  <hi>She gives an Account</hi>
+               </p>
+               <p n="1">
+                  <hi>I.</hi> THAT on <hi>Monday</hi> Night, being <hi>Jan.</hi> 24th. ſhe ſitting by her Mothers fire-ſide between Five and Six of the Clock in the Evening, with a Child in her Lap, ſhe heard a Voice behind her, which mildly ſaid <hi>Sweet-heart:</hi> Whereupon ſhe turning her Face back, ſaw an Appearance of a Woman, as ſhe conceived, all in White, covered with a white Vail, ſo that ſhe ſaw no Face, but a very white Hand was laid on the Back of her Chair, and ſaid to her, <hi>The 15 day of</hi> May <hi>is a p<g ref="char:EOLhyphen"/>pointed for the ROYAL BLOOD to be Poiſoned;</hi> and further ſaid, <hi>Be not afraid, for I am ſent to tell thee:</hi> And ſo vaniſhed.</p>
+               <p n="2">
+                  <hi>II.</hi> That on <hi>Tueſday,</hi> Jan. the 25th. between the hours of Five and Six at Night, ſhe going to her Mo<g ref="char:EOLhyphen"/>thers houſe, coming within five or ſix Pole of her door, the ſame Apparition appeared to her again in White, and vailed as before, and ſaid <hi>Do you remember what I ſaid?</hi> And ſhe anſwered, <hi>Yes.</hi> And ſhe further ſaid <hi>In the Name of the Father, the Son, and the Holy Ghoſt, What art thou?</hi> And immediately it appeared in a very Glorious Shape, and with a more harſh Voice ſaid, <hi>Tell King</hi> Charles <hi>from me, and bid him not re<g ref="char:EOLhyphen"/>move his Parliament, and ſtand to his Council;</hi> and ſaid <hi>Do as I bid you.</hi> To which ſhe anſwered, <hi>Yes,</hi> and ſo vaniſhed.</p>
+               <p n="3">
+                  <hi>III.</hi> That on <hi>Jan.</hi> the <hi>26th.</hi> between the ſaid hours of five and ſix in the Evening, ſhe ſitting by the Fire, and her Mother ſitting by her, the ſame Apparition came again to her, whereat ſhe could not speak; and her Mother perceiving her to be troubled, and fixing her eyes, ſaid, <hi>Daughter, Seeſt thou any thing?</hi> And ſhe, not able to ſpeak, Nodded with her Head and Hand; whereat her Mother ſaid, <hi>Shall I go out?</hi> And there<g ref="char:EOLhyphen"/>upon ſhe being enabled to ſpeak, the Apparition Nodded to her, ſhe ſaid, <hi>Yes;</hi> whereat her Mother going out, the Apparition ſaid <hi>Do your Meſſage.</hi> And ſhe anſwer<g ref="char:EOLhyphen"/>ed, <hi>I will, ſo ſoon as God ſhall enable me;</hi> And it ſaid, <hi>Be not afraid,</hi> and ſo vaniſhed: And then ſhe cried, <hi>Mother, Mother;</hi> and then her Mother and ſome other Friends came in.</p>
+               <p n="4">
+                  <hi>IV.</hi> The ſaid Apparition appear'd to the ſaid Maid on <hi>Thurſday</hi> in the evening, between the aforeſaid hours of five and ſix, ſhe being at a Neighbours Houſe, but ſaid nothing to her.</p>
+               <closer>This was taken from the Maids own mouth, by me <hi>Rich. Wilkinſon,</hi> Schoolmaſter in the ſaid Town of <hi>Hatfield.</hi>
+               </closer>
+            </div>
+            <div type="account">
+               <head>A True Relation of a ſtrange Apparition which appear'd to the Lady <hi>Gr.</hi> Commanding her to deliver a Meſ<g ref="char:EOLhyphen"/>ſage to His Grace the D. of <hi>M.</hi>
+               </head>
+               <p>After the Powerful Rhetorick of that Noble Peer of the Realm (the Earl of <hi>E.</hi> at his delivery of the Petition of 15 more as Noble Peers as Himſelf) had fail'd of its deſign'd Succeſs; what could we hope for, or expect that would pre<g ref="char:EOLhyphen"/>vail upon His Majeſty to alter his Reſolution of Convening his Parliament at <hi>Oxford?</hi> Surely no Humane Perſon would be thought forcible enough, and an Heavenly muſt be im<g ref="char:EOLhyphen"/>ploy'd,
+<pb facs="tcp:178730:2"/>if the buſineſs cannot be done by the Earl of <hi>E.</hi> Accordingly we have heard of a <hi>True and perfect<g ref="char:punc">▪</g> Relation from</hi> Biſhops Hatfield, (atteſted by one of his Majeſties Chaplains in Ordinary (Dr. <hi>Lee</hi>) ſo famous for his conſtan<g ref="char:EOLhyphen"/>cy to the Church of <hi>England,</hi>) <hi>of a str<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>g<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> and Wonderful Apparition which appear'd to one Young Mrs.</hi> Freeman: And her Meſſage to his Sacred Majeſty, is well enough known, not only by a ſingle Printed paper of the whole matter of Fact; but alſo, (that no perſon ſhould have Impudence to doubt the Truth of it) by <hi>Ben. Harris</hi> himſelf in his <hi>Proteſtant Intelligence;</hi> There we are told how the Maiden of <hi>One and thirty, ſitting with her Child in her Lap by the Fire, ſaw an Appearance of a Woman (as ſhe conceiv'd) cover'd with a white Veil, ſo that ſhe ſaw no Face, but a very white Hand was laid on the back of her Chair, and ſaid unto her, &amp;c.</hi> which though it be very wonderful, yea his Speech of the <hi>White Hand</hi> is equall'd (if not excell'd in ſtrangeneſs,) by an Apparition which appear'd to the Lady <hi>Gr.</hi>) ſuppoſed to be the ſame that was ſeen at <hi>Hatfield;</hi>) of which I ſhall give you a True and perfect Relation, according to her own Depoſition before Juſtice <hi>Warc.</hi> Sir <hi>W.W. Mr. Baxter,</hi> and <hi>Mr. Charlton,</hi> who ſtampt with his woodden Leg, and ſwore <hi>Damn him he believ'd it.</hi>
+               </p>
+               <div type="part">
+                  <head>Her Ladiſhip gives an Account.</head>
+                  <p n="1">I. THat on <hi>Saturday January</hi> 29. 1660. being alone in her Cloſet about the hour of Nine at night, ſhe heard a Voice behind her, which mildly ſaid <hi>Sweet Heart;</hi> At which ſhe was not at firſt at all frightned, ſuppoſing it to have been, an Apparition which (ſhe ſays) has often of late appear'd to her (in the abſence of her Lord) in the ſhape of a bright <hi>Star</hi> and <hi>Blew Garter,</hi> but without hurting or ſo much as frightning her; but ſhe was ſtrangely ama<g ref="char:EOLhyphen"/>zed, when turning about, ſhe beheld an Appearance very different from what ſhe expected; It was a Spirit all in White, ſo Veil'd from Top to Toe, that nothing appear'd to her but one ſide of a Cheek, where the Veil was put by; and this ſide of the Cheek, ſaid thus unto her: <hi>The</hi> 15th. <hi>day of</hi> May <hi>is appointed for the Royal Blood to be Poiſo<g ref="char:EOLhyphen"/>ned;</hi> And further ſaid, <hi>Be not afraid, for I am ſent to tell thee, that</hi> James <hi>D. of M. hath none of it in him;</hi> ſeeming by this addition to have fill'd up teh Sentence that it had left imperfect to the <hi>Maid of Hatfield;</hi> and ſo vaniſhed.</p>
+                  <p n="1">I. That on <hi>Sunday, Jan.</hi> 30. between the hours of 7 and 8, it again appeared to her in the ſame manner; and ſaid, <hi>Do you remember what I ſaid?</hi> And ſhe Anſwer'd, <hi>Yes,</hi> Then the Spirit ſaid, <hi>Do you believe it?</hi> And ſhe Anſwer'd, <hi>Yes.</hi> Then the Apparition ſaid; <hi>And have you told him?</hi> And ſhe Anſwered, <hi>No,</hi> then immediately it appear'd in a more terrible ſhape, and with a more harſh Voice, ſaid; <hi>Tell it,</hi> James <hi>D. of M. from me, and bid him not go to</hi> Wapping; And then it vaniſht through the Key-hole.</p>
+                  <p n="3">III. That on <hi>Jan.</hi> 31. (being the day kept in remem<g ref="char:EOLhyphen"/>brance of the late Kings Martyrdom) about the hour of 3 in the afternoon, it again appear'd, and askt her. <hi>Have you fasted to day?</hi> And ſhe anſwer'd, <hi>No.</hi> The Spirit ſaid, <hi>'Tis well,</hi> and ſo Vaniſht.</p>
+                  <p n="4">IV. That on <hi>Feb.</hi> 1. about the hour of 11. at night it appear'd again, and ſaid to her; <hi>Tell</hi> James <hi>D.</hi> of M. But ſhe interrupted the Spirit, and ſaid, <hi>He is here, don't you ſee him? tell him your ſelf? we are all alone.</hi> The Spirit thought it uncivil to be interrupted, and took Pett and vaniſht.</p>
+                  <p n="5">V. That on <hi>Feb.</hi> 2. about 2 of the Clock Afternoon, ſhe heard the ſame Spirit, but ſuppos'd that its being affronted the laſt time, occaſion'd its not appearing again; But it talkt inviſibly to her a great while, making ſeveral ſtops and pauſes; and then beginning again very incoherently: The Words (its ſaid her Ladiſhips ſays) ſhe writ down, which are theſe <hi>(viz.) Bid</hi> James <hi>D. of M. go to the Tower, and venture the</hi> Lyons, <hi>old</hi> Charles <hi>won't now hurt him. Tell him he has diſcovered the weakneſs of his Party, in Petitioning with but</hi> 
+                     <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>5. <hi>after him. He has more Followers I am ſure, and as good company attend him to</hi> Hedg-lane <hi>from a City</hi> Club, <hi>or a Treat at</hi> Wapping- <hi> 
+                        <gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> Bid all the Lords you know have a care of Petitioning, unleſs they are diſoblig'd perſons. Tell my Lord</hi> St. <hi>his Wife keeps her Bed, Bid</hi> Sh. <hi>have a care of his Spiggot; for if he is Tapt all the</hi> Plot <hi>will run out. The</hi> Blazing ſtar <hi>will again appear, the</hi> 21th. <hi>of</hi> March. <hi>Deſtruction is near. if Settlement does not come. And if we have not Peace, we ſhall be in danger of War. I am the</hi> Hatfield <hi>Spirit, and return to haunting the Houſe of my Landlord the E. of</hi> Sal. This ſaid, it vaniſht, and was never heard of more.</p>
+               </div>
+               <trailer>FINIS.</trailer>
+            </div>
+            <div type="poem">
+               <head>
+                  <hi>Tom Roſs</hi>'s Ghoſt to his Pupil the <hi>D.</hi> of <hi>M.</hi>
+               </head>
+               <l>SHame of my Life, Diſturber of my Tomb,</l>
+               <l>Baſe as thy Mothers Proſtituted Womb;</l>
+               <l>Huffiing to Cowards, fawning to the Brave,</l>
+               <l>To Knaves a Fool, to credulous Fools a Knave,</l>
+               <l>The King's Betrayer, and the Peoples Slave,</l>
+               <l>Like SAM<g ref="char:V">Ʋ</g>EL at the Necromantick Call,</l>
+               <l>I riſe to tell Thee, <hi>God hath left thee,</hi> SA<g ref="char:V">Ʋ</g>L?</l>
+               <l>I ſtrive in vain the <hi>Infected Blood</hi> to cure,</l>
+               <l>Streams will run muddy where the Spring's Impure.</l>
+               <l>In all your Meritorious Life we ſee</l>
+               <l>Old <hi>TAAFS</hi> invincible Sobriety.</l>
+               <l>Places of <hi>Maſter of the Horſe</hi> and <hi>Spy,</hi>
+               </l>
+               <l>You (like <hi>Tom Howard</hi>) did at one ſupply:</l>
+               <l>From SIDNEYS Blood, your Loyalty did ſpring;</l>
+               <l>You ſhew us all your Fathers but the KING,</l>
+               <l>From whoſe too tender and too bounteous arms,</l>
+               <l>(<g ref="char:V">Ʋ</g>nhappy He who ſuch a Viper Warms</l>
+               <l>As Dutiful a Subject as a Son)</l>
+               <l>To your true Parents the whole Town you run:</l>
+               <l>Read if you can, how th' old Apoſtate fell,</l>
+               <l>Out-do his Pride, and Merit more than Hell:</l>
+               <l>Both he and you were gloriouſly bright,</l>
+               <l>The firſt and pureſt of the Sons of Light:</l>
+               <l>But when like Him you offred at the Crown</l>
+               <l>Like Him your angry Father kickt you down.</l>
+            </div>
+            <div type="poem">
+               <head>The <hi>Oxford</hi> Aldermans Speech to his Grace the <hi>D.</hi> of <hi>M.</hi> at his Entrance into that City about <hi>Sept.</hi> 1680.</head>
+               <lg>
+                  <l>STtout <hi>Hannibal,</hi> before He came to Age,</l>
+                  <l>Perpetual Wars with <hi>Rome</hi> was forc'd to Wage!</l>
+                  <l>YO<g ref="char:V">Ʋ</g> lead <g ref="char:V">Ʋ</g>s to ſuch Wars; O Happy We!</l>
+                  <l>Great Prince! YO<g ref="char:V">Ʋ</g> are a Soldier good as He:</l>
+                  <l>Though ſome will ſay (to give the Devil his due,)</l>
+                  <l>HE was as good a Proteſtant as YO<g ref="char:V">Ʋ</g>.</l>
+                  <l>YO<g ref="char:V">Ʋ</g> to that Whore of Whores, the Whore of <hi>Rome,</hi>
+                  </l>
+                  <l>Devoted from your own fair Mothers Womb;</l>
+                  <l>Though in the Schools of <hi>Jeſuits</hi> true bred,</l>
+                  <l>YO<g ref="char:V">Ʋ</g> ſcorn'd to learn of Them to Write or Read.</l>
+                  <l>A <hi>Proteſtant!</hi> (the more to be Admir'd,)</l>
+                  <l>That never were Inſtructed, but Inſpir'd.)</l>
+                  <l>So unconcern'd from Popery You paſs,</l>
+                  <l>No <g ref="char:V">Ʋ</g>ſe of <g ref="char:V">Ʋ</g>nderſtanding in the Caſe.</l>
+                  <l>True <hi>Intereſt</hi> (that all other thing, o'repowers),</l>
+                  <l>And Generous Indignation made YO<g ref="char:V">Ʋ</g> Ours.</l>
+                  <l>Even ſo in <hi>Spain</hi> to <hi>Maſs</hi> come Trading <hi>Jews,</hi>
+                  </l>
+                  <l>Caſt Drabs turn <hi>Quakers</hi> but to ſpite the <hi>Stews.</hi>
+                  </l>
+                  <l>But <hi>Fears</hi> and <hi>Jealouſies</hi> YO<g ref="char:V">Ʋ</g> We ſcorn,</l>
+                  <l>That are ſo true a Son of Honour Born;</l>
+                  <l>And ſince have made both <hi>Gog</hi> and <hi>Magog</hi> bleed,</l>
+                  <l>Act but the Demagogue, You'l do the Deed:</l>
+                  <l>You'l <hi>Dam</hi> and <hi>Ram</hi> proud <hi>Antichriſt</hi> to Hell;</l>
+                  <l>But for him firſt to Work One Miracle.</l>
+                  <l>He that with Four hard Words and One Grave Nod,</l>
+                  <l>Turns an Inſipid <hi>Wafer</hi> into <hi>God;</hi>
+                  </l>
+                  <l>Were YO<g ref="char:V">Ʋ</g> a Dough-bak'd <hi>Duke,</hi> with leſs <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ado,</l>
+                  <l>To <hi>Prince of Wales</hi> might Tranſubſtantiate YO<g ref="char:V">Ʋ</g>.</l>
+                  <l>Do YO<g ref="char:V">Ʋ</g> but ſay't, We'll Swear that You are ſo,</l>
+                  <l>And rather Kiſs Your <hi>Hand,</hi> than Kiſs his <hi>Toe:</hi>
+                  </l>
+                  <l>
+                     <hi>Reſolv'd, Reſolv'd.</hi> It muſt not be gainſaid;</l>
+                  <l>Faith We'll believe Your Mother was a Maid.</l>
+               </lg>
+               <lg>
+                  <l>Why ſhould You think <hi>Ambition</hi> any Crime?</l>
+                  <l>We'll make You <hi>Duke of Venice</hi> in good time:</l>
+                  <l>Or, if YO<g ref="char:V">Ʋ</g> ſcruple to <g ref="char:V">Ʋ</g>ſurp the Crown;</l>
+                  <l>Having once Rais'd <g ref="char:V">Ʋ</g>S, YO<g ref="char:V">Ʋ</g> may then ſit down.</l>
+                  <l>YO<g ref="char:V">Ʋ</g>, or Your Friends ſhall have the foremoſt Place;</l>
+                  <l>Perhaps We'll joyn Sir <hi>A—ſt—g</hi> with Your <hi>Grace:</hi>
+                  </l>
+                  <l>Whether YO<g ref="char:V">Ʋ</g> Reign, or HE, it's all One,</l>
+                  <l>Great <hi>Alexander's</hi> Dear <hi>Hepheſtion.</hi>
+                  </l>
+                  <pb facs="tcp:178730:3"/>
+                  <l>But When YO<g ref="char:V">Ʋ</g> come to Reap theſe Goodly Fruits,</l>
+                  <l>Sweet Sir, Remember Theſe Our Humble Suits,</l>
+               </lg>
+               <lg>
+                  <l>Firſt, <hi>Let theſe Lordly</hi> Biſhops <hi>go to Pot;</hi>
+                  </l>
+                  <l>
+                     <hi>'Tis plain their Lordſhips all are in the PLOT,</hi>
+                  </l>
+                  <l>
+                     <hi>They hold none lawful Heirs, but lawfully begot,</hi>
+                  </l>
+                  <l>
+                     <hi>Our</hi> Common-Wealth<hi>'s a Caſtle in the Air,</hi>
+                  </l>
+                  <l>
+                     <hi>If we pray for</hi> KING <hi>in</hi> Common-Prayer.</l>
+                  <l>
+                     <hi>Theſe paltry Schollars, blaſt Them with one breath,</hi>
+                  </l>
+                  <l>
+                     <hi>Or They'l Rhime your</hi> Grace <hi>and</hi> 
+                     <g ref="char:V">Ʋ</g>s <hi>to Death.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Then O Brave We! then Hei for our good Town!</l>
+                  <l>Then up go WE when Wit and Senſe go down.</l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>The GHOST of the Late PARLIAMENT, to the New one to Meet at <hi>Oxford.</hi>
+               </head>
+               <l>FRom Deepeſt Dungeon of Eternal Night,</l>
+               <l>The Seats of Horror, Sorrow, Pains and Spight.</l>
+               <l>I have been ſent to tell Your Tender Youth</l>
+               <l>A Seaſonable and Important Truth!</l>
+               <l>I feel, (but Oh too late,) that no Diſeaſe,</l>
+               <l>Is like the Surfeit of Luxurious Eaſe;</l>
+               <l>And of all other, the moſt tempting Things.</l>
+               <l>Are too much Wealth, and too Indulgent Kings.</l>
+               <l>None ever was Suparlatively Ill,</l>
+               <l>But by Degrees, Induſtry and Skill:</l>
+               <l>And ſome, whoſe Meaning hath at firſt been fair;</l>
+               <l>Grow Knaves by Uſe, and Rebels by deſpair.</l>
+               <l>My Time is paſt, and Yours will ſoon begin,</l>
+               <l>Keep your Firſt Bloſſoms from the blaſt of <hi>Sin;</hi>
+               </l>
+               <l>And by the Fate of my Tumultuous Ways,</l>
+               <l>Preſerve Your ſelves, and bring <hi>Serener Days.</hi>
+               </l>
+               <l>The buiſy ſubtil <hi>Serpents of the Law,</hi>
+               </l>
+               <l>Did firſt my Mind from true Obedience draw,</l>
+               <l>While I did Limits to the <hi>KING</hi> Preſcribe,</l>
+               <l>And took for <hi>Oracles</hi> that <hi>Canting Tribe;</hi>
+               </l>
+               <l>I chang'd True Freedom for the Name of Free,</l>
+               <l>And grew <hi>Seditious</hi> for Variety.</l>
+               <l>All that oppos'd me were to be accus'd,</l>
+               <l>And, by the Laws Illegally Abus'd.</l>
+               <l>The Robe was ſummon'd <hi>M—d</hi> in the Head,</l>
+               <l>In Legal Murder, none ſo deeply read:</l>
+               <l>I brought him to the Bar, where once He ſtood;</l>
+               <l>Stain'd with the (yet Un-expiated) Blood</l>
+               <l>Of the brave <hi>Strafford,</hi> when Three Kingdoms rung</l>
+               <l>With his Accumulative Hackney Tongue.</l>
+               <l>Priſoners and Witneſſes were waiting by,</l>
+               <l>Theſe had been taught to <hi>Swear</hi> and thoſe to Dy;</l>
+               <l>And to expect their <hi>Arbitrary Fates,</hi>
+               </l>
+               <l>Some for <hi>Ill Faces,</hi> ſome for <hi>Good Estates:</hi>
+               </l>
+               <l>To fright the People and Alarm the Town,</l>
+               <l>
+                  <hi>B.</hi> 
+                  <gap reason="blank" extent="1 word">
+                     <desc> _____ </desc>
+                  </gap> and O. <gap reason="blank" extent="1 word">
+                     <desc> _____ </desc>
+                  </gap> Imploy'd the Reverend Gown:</l>
+               <l>But while the <hi>Tripple Mitre</hi> bore the Blame,</l>
+               <l>The Kings <hi>Three Crowns</hi> were all their Aim.</l>
+               <l>I ſeem'd, (and did but ſcem) to fear the <hi>Guards,</hi>
+               </l>
+               <l>And took for mine the <hi>B.</hi> 
+                  <gap reason="blank" extent="1 word">
+                     <desc> _____ </desc>
+                  </gap> and the <hi>W—s,</hi>
+               </l>
+               <l>Anti-monartick Heriticks of <hi>State,</hi>
+               </l>
+               <l>Immoral Atheiſts, Rich and Reprobate-</l>
+               <l>But above all, <hi>I</hi> got a little Guide,</l>
+               <l>Who every Foard of Villany had Try'd;</l>
+               <l>None knew ſo well the Old Pernicious way,</l>
+               <l>To Ruin Subjects and make KINGS Obey;</l>
+               <l>And my ſmall <hi>Jehu</hi> at a furious Rate,</l>
+               <l>Was driving <hi>Eighty</hi> back to <hi>Forty Eight.</hi>
+               </l>
+               <l>This the King knew, and was Reſolv'd to bear;</l>
+               <l>But I miſtook his <hi>Patience</hi> for his <hi>Fear.</hi>
+               </l>
+               <l>All that this <hi>Happy Iſland</hi> could afford,</l>
+               <l>Was Sacrific'd to my Voluptuous Baord.</l>
+               <l>In his whole Paradice One only Tree</l>
+               <l>He had Excepted by a ſtrict Decree;</l>
+               <l>A <hi>Sacred Tree</hi> which <hi>Royal Fruit</hi> did bear,</l>
+               <l>Yet It in pieces I Conſpir'd to Tear;</l>
+               <l>Beware my Child, <hi>Divinity</hi> is there.</l>
+               <l>This ſo Out-did all I had done before,</l>
+               <l>I could Attempt, and He endure no more.</l>
+               <l>My Un prepar'd and Un-repenting Breath,</l>
+               <l>Was ſnatcht away by the ſwift Hand of Death;</l>
+               <l>And I (with all my Sins about me) hurl'd,</l>
+               <l>To th'utter Darkneſs of the Lower World:</l>
+               <l>A Dreadful Place, where You too ſoon ſhall ſee.</l>
+               <l>If you believe <hi>Seducers</hi> more than Me.</l>
+               <trailer>FINIS.</trailer>
+            </div>
+            <div type="canto">
+               <head>A <hi>Canto</hi> upon the Miraculous Cure of the <hi>Kings-Evil,</hi> performed by his Grace the <hi>D.</hi> of <hi>M.</hi>
+               </head>
+               <lg>
+                  <l>AS Popiſh Farriers us'd to Pray<g ref="char:punc">▪</g>
+                  </l>
+                  <l>In their own Trade the good St. <hi>L<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>y,</hi>
+                  </l>
+                  <l>The Saint to whom they have Recourſe,</l>
+                  <l>As to <hi>Heavens Maſter of the Horſe.</hi>
+                  </l>
+                  <l>To him they loudly cry for <hi>Mercy,</hi>
+                  </l>
+                  <l>On <hi>Ragged Colts that have the Farcy.</hi>
+                  </l>
+                  <l>For <hi>Hacknys Gall'd to Him they Pray,</hi>
+                  </l>
+                  <l>And Drink dead Drunk upon his Day.</l>
+                  <l>So to his Grace of <hi>Monm.</hi> Trots,</l>
+                  <l>A <hi>Filly Fole that had the Bots.</hi>
+                  </l>
+                  <l>For ſtill ſhe knew, (and twas no News,)</l>
+                  <l>He keeps the <hi>Mares</hi> though not the <hi>Mews.</hi>
+                  </l>
+                  <l>But had you ſeen the <hi>Skittiſh Jade,</hi>
+                  </l>
+                  <l>You would have thought her <hi>Drunk or Mad.</hi>
+                  </l>
+                  <l>For at firſt daſh <hi>His Hand ſhe Seiz<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>d,</hi>
+                  </l>
+                  <l>Much was the <hi>th' Ambitious</hi> Heroe <hi>pleas'd.</hi>
+                  </l>
+                  <l>So ſweetly did <hi>Don Quixot</hi> Grin;</l>
+                  <l>When the <hi>Maid Marrian of the Inn,</hi>
+                  </l>
+                  <l>He thought was ſome <hi>Enchatned Queen.</hi>
+                  </l>
+                  <l>Askt his <hi>Dead doing Hand to Kiſs,</hi>
+                  </l>
+                  <l>But wat <hi>white Devil Danc't in this?</hi>
+                  </l>
+                  <l>Some <hi>Fly,</hi> ſome <hi>Rat,</hi> or <hi>great Old Pus,</hi>
+                  </l>
+                  <l>Or <hi>Spirit Mephostophilus:</hi>
+                  </l>
+                  <l>Or <hi>Pug,</hi> that <hi>Paracelſus</hi> wore</l>
+                  <l>In <hi>th' Pumel of his Sword before;</hi>
+                  </l>
+                  <l>Or <hi>Healing Vertue,</hi> That as rare is,</l>
+                  <l>Is ſent <hi>His Grace by's Aunt of</hi> Fairyes.</l>
+                  <l>Who Aids him thus in <hi>Hugger mugger,</hi>
+                  </l>
+                  <l>So did <hi>Doll Common Abel Drugger.</hi>
+                  </l>
+                  <l>Some <hi>ſweaty Devil in his Palm,</hi>
+                  </l>
+                  <l>Transfuſes <hi>Brine instead of Balm.</hi>
+                  </l>
+                  <l>And <hi>Brine</hi> you know <hi>is good for th' Itch,</hi>
+                  </l>
+                  <l>In any <hi>Mangy Dog or Bitch:</hi>
+                  </l>
+                  <l>Long in his Fiſt the <hi>Leprous Drab,</hi>
+                  </l>
+                  <l>Paddles and pores <hi>familiar Scab.</hi>
+                  </l>
+                  <l>
+                     <hi>The Witch her Dam</hi> had ſet her Fancy,</l>
+                  <l>A gog upon this <hi>Chyromancy;</hi>
+                  </l>
+                  <l>To view each Line <hi>the Hag Importunes.</hi>
+                  </l>
+                  <l>And thus <hi>Young Gipſie reads his Fortunes.</hi>
+                  </l>
+                  <l>
+                     <hi>The Men of</hi> Weſtminſter <hi>ſhall paſs,</hi>
+                  </l>
+                  <l>
+                     <hi>High Votes in Honour of your Grace;</hi>
+                  </l>
+                  <l>
+                     <hi>No Prayers for fear of the</hi> Black Rod,</l>
+                  <l>
+                     <hi>They'l Vote (I fear)</hi> No King, No God.</l>
+                  <l>
+                     <hi>Goeat ſtickling there ſhall be for</hi> two,</l>
+                  <l>
+                     <hi>Pillory'd</hi> Benjamin <hi>and</hi> you.</l>
+                  <l>
+                     <hi>What will you give me this next Spring,</hi>
+                  </l>
+                  <l>
+                     <hi>If then You are not Crown'd a</hi> King,</l>
+                  <l>
+                     <hi>By</hi> Oates <hi>before we reap next Crop,</hi>
+                  </l>
+                  <l>Oats <hi>in a Tub will preach you up.</hi>
+                  </l>
+                  <l>
+                     <hi>So Sybil</hi> ended her vile Gueſſing,</l>
+                  <l>And each to other gave their Bleſſing.</l>
+                  <l>But O the <hi>Green-ſick Girls</hi> may Boaſt,</l>
+                  <l>This Duke hath Cur'd them to his Coſt.</l>
+                  <l>Though now he cuts his Capers high,</l>
+                  <l>He may with <hi>Falſtaff</hi> one day cry,</l>
+                  <l>(When Age hath ſet him in the <hi>Stocks,</hi>)</l>
+                  <l>
+                     <hi>A Pox on my Gout, a Gout on my Pox.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Yet that Fat Knight with all his Guts,</l>
+                  <l>That were not then ſo ſweet as Nuts,</l>
+                  <l>Tho oft He boldly fought and winkt,</l>
+                  <l>Led <hi>Harry Monmouth</hi> by Inſtinct,</l>
+                  <l>Reveres a Buckram Prince of <hi>Wales,</hi>
+                  </l>
+                  <l>His Great Heart quops, his Courage quails.</l>
+               </lg>
+               <lg>
+                  <l>The <hi>Lyon Rampant</hi> is too wiſe,</l>
+                  <l>to touch a <hi>Prince,</hi> though in Diſguiſe:</l>
+                  <l>Much leſs a <hi>Prince,</hi> ſo Kind and Civil,</l>
+                  <l>To Touch a <hi>Kingdom</hi> for <hi>Kings-Evil.</hi>
+                  </l>
+                  <l>He means to make it (for its Health,)</l>
+                  <l>
+                     <hi>A Common Whore, a Common-wealth.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>The ſtroaker <hi>Graitrix</hi> was a ſot,</l>
+                  <l>And all his Feat-Tricks are forgot;</l>
+                  <l>But <hi>Duke Trinculo,</hi> and <hi>Tom Dory,</hi>
+                  </l>
+                  <l>Will be a Famous Quack in <hi>Story;</hi>
+                  </l>
+                  <l>Let every <hi>Scabby City Cuckow,</hi>
+                  </l>
+                  <l>Fly into Your <hi>Hedge-lane</hi> to look You,</l>
+                  <l>If <hi>Seven Sons</hi> do Things ſo Rare,</l>
+                  <l>In You <hi>Seven-fathers</hi> have a ſhare.</l>
+                  <l>Shew us ſome more of theſe fine Mocks,</l>
+                  <l>Shew your <hi>Black Art,</hi> ſhew your <hi>Black Box.</hi>
+                  </l>
+                  <l>'Tis thought you've there ſome pure Receipt.</l>
+                  <l>Great <hi>Mountebank</hi> of our ſick State.</l>
+               </lg>
+               <lg>
+                  <l>Your <hi>Zany,</hi> who this Cure reveals,</l>
+                  <l>Tells us in <hi>March</hi> your Highneſs heals.</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>LONDON, <hi>Printed for</hi> B. R. <hi>and</hi> DW.</p>
+            <pb facs="tcp:178730:3"/>
+         </div>
+      </back>
+   </text>
+</TEI>
